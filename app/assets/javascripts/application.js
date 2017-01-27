@@ -16,4 +16,5 @@
 // Required by Blacklight
 //= require blacklight/blacklight
 
+//= require umd_lib
 //= require_tree .

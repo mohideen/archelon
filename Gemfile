@@ -36,6 +36,9 @@ gem 'blacklight', '~> 6.0'
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
 gem 'therubyracer'
 
+# UMD Bootstrap style
+gem 'umd_lib_style', github: 'umd-lib/umd_lib_style', ref: '0.2.0'
+
 # CAS Authentication
 # April 25, 2016: Need to use GitHub instead of Gem
 # See https://github.com/rubycas/rubycas-client-rails/issues/27
@@ -43,6 +46,8 @@ gem 'rubycas-client', git: 'https://github.com/rubycas/rubycas-client.git', bran
 
 # dotenv - For storing production configuration parameters
 gem 'dotenv-rails', '~> 2.1.1'
+
+
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
